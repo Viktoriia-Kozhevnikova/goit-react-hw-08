@@ -1,0 +1,137 @@
+.formContainer {
+    background-color: #472185;
+    padding: 45px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(255, 230, 0, 0.5);
+    width: 350px;
+    margin: 0 auto;
+}
+
+.formTitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(213, 216, 20);
+}
+
+.formText {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.formField {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #382349;
+    color: white;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(213, 216, 20);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: rgb(216, 187, 20);
+}
+
+.formError {
+    color: red;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .formContainer {
+        width: 90%;
+    }
+
+    .formTitle {
+        font-size: 28px;
+    }
+
+    .formText {
+        font-size: 20px;
+    }
+
+    .formGroup {
+        font-size: 18px;
+    }
+
+    .submitButton {
+        font-size: 20px;
+    }
+}
+
+
+
+/* .formContainer {
+    background-color: #472185;
+    padding: 45px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(255, 230, 0, 0.5);
+    width: 500px;
+}
+
+.formTitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(213, 216, 20);
+}
+
+.formText {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.formField {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #382349;
+    color: white;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(213, 216, 20);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+.submitButton:hover {
+    background-color: rgb(216, 187, 20);
+}
+
+.formError {
+    color: red;
+    font-size: 12px;
+} */

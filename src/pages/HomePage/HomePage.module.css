@@ -1,0 +1,192 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #9771d4, #7f56c0);
+    color: white;
+    text-align: center;
+}
+
+
+.contentWrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.icon {
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #ffef14;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.appName {
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    animation: slideUp 0.5s ease-in-out;
+}
+
+
+@media screen and (min-width: 769px){
+    .contentWrapper {
+        padding: 30px;
+        max-width: 80%;
+        min-width: 769px;
+    }
+
+    .icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .title {
+        font-size: 2.8rem;
+    }
+
+    .description {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media screen and (min-width: 1281px) {
+    .contentWrapper {
+        padding: 40px;
+        min-width: 1025px;
+    }
+
+    .icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* 
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #9771d4, #7f56c0);
+    color: white;
+    text-align: center;
+}
+
+.contentWrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.icon {
+    color: #ffffff;
+    width: 90px;
+    height: 90px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.title {
+    font-size: 3rem;
+    color: #ffef14;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.appName {
+    text-transform: uppercase;
+}
+
+
+.description {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */

@@ -1,0 +1,148 @@
+.form {
+    background-color: #472185;
+    padding: 60px 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(255, 230, 0, 0.5);
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.formTitle {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(213, 216, 20);
+    text-align: center;
+}
+
+.formText {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.formList {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.formField {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(213, 216, 20, 0.8);
+    border-radius: 8px;
+    background-color: #2d2f48;
+    color: white;
+    font-size: 18px;
+}
+
+.formButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(213, 216, 20);
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+    background-color: rgb(216, 187, 20);
+}
+
+.formError {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .form {
+        padding: 80px 60px;
+    }
+
+    .formTitle {
+        font-size: 48px;
+    }
+
+    .formText {
+        font-size: 24px;
+    }
+}
+
+
+
+
+/* .form {
+    background-color: #472185;
+    padding: 60px 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(255, 230, 0, 0.5);
+    width: 550px;
+
+    margin: 0 auto;
+}
+
+.formTitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(213, 216, 20);
+    text-align: center;
+}
+
+.formText {
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.formList {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.formField {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(213, 216, 20, 0.8);
+    border-radius: 8px;
+    background-color: #2d2f48;
+    color: white;
+    font-size: 18px;
+}
+
+.formButton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(213, 216, 20);
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+    background-color: rgb(216, 187, 20);
+}
+
+.formError {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+} */

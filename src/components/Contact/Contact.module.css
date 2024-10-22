@@ -1,0 +1,144 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    gap: 20px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100px;
+    background-color: rgb(213, 216, 20);
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.text {
+    margin: 0;
+    padding: 5px 0;
+    color: #000000;
+    font-size: 15px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+    padding: 5px 10px;
+    background-color: #fd1919;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    gap: 2px;
+}
+
+.btn:hover {
+    background-color: #e60000;
+}
+
+
+@media screen and (min-width: 769px) {
+    .container {
+        padding: 15px;
+        gap: 30px;
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+    }
+}
+
+
+@media screen and (min-width: 1281px) {
+    .container {
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        width: 90px;
+        font-size: 17px;
+    }
+}
+
+
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    gap: 50px;
+    min-width: 300px;
+    min-height: 100px;
+    background-color: rgb(213, 216, 20);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.text {
+    margin: 0;
+    padding: 5px 0;
+    color: #000000;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #fd1919;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e60000;
+} */

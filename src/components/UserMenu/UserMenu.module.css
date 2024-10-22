@@ -1,0 +1,104 @@
+.userMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.welcomeText {
+    display: none;
+    width: 100%;
+    color: #ffef14;
+    margin: 0;
+    padding: 15px 0;
+
+}
+
+.logoutButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9771d4;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 15px;
+}
+
+.logoutButton:hover {
+    background-color: #7f56c0;
+}
+
+.userMenu {
+    font-size: 18px;
+}
+
+.logoutButton {
+    padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .welcomeText {
+        display: block;
+    }
+
+    .userMenu {
+        font-size: 20px;
+    }
+
+    .logoutButton {
+        width: auto;
+        padding: 8px 15px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .welcomeText {
+        display: block;
+    }
+
+
+    .userMenu {
+        font-size: 22px;
+    }
+}
+
+/* 
+.userMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.welcomeText {
+    width: 100%;
+    color: #ffef14;
+    margin: 0;
+    padding: 15px 0;
+    
+}
+
+.logoutButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9771d4;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 15px;
+}
+
+.logoutButton:hover {
+    background-color: #7f56c0;
+} */

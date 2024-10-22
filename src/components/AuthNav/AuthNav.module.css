@@ -1,0 +1,106 @@
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.link:hover {
+    color: #ffef14;
+    text-shadow: 1px 1px 0px #000000c5,
+        -1px -1px 0px #000000c5,
+        1px -1px 0px #000000c5,
+        -1px 1px 0px #000000c5;
+}
+
+.activeLink {
+    color: #000000;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #ffef14c5,
+        -1px -1px 0px #ffef14c5,
+        1px -1px 0px #ffef14c5,
+        -1px 1px 0px #ffef14c5;
+}
+
+.activeLink:hover {
+    color: #000000;
+}
+
+
+@media screen and (min-width: 769px) {
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .link {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (min-width: 1281px) {
+    .nav {
+        gap: 20px;
+    }
+
+    .link {
+        font-size: 22px;
+        padding: 10px 20px;
+    }
+}
+
+
+
+
+
+
+/* .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7)
+}
+
+.link:hover {
+    color: #ffef14;
+    text-shadow: 1px 1px 0px #000000c5,
+        -1px -1px 0px #000000c5,
+        1px -1px 0px #000000c5,
+        -1px 1px 0px #000000c5;
+}
+
+.activeLink {
+    color: #000000;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #ffef14c5,
+        -1px -1px 0px #ffef14c5,
+        1px -1px 0px #ffef14c5,
+        -1px 1px 0px #ffef14c5;
+}
+
+.activeLink:hover {
+    color: #000000;
+} */
